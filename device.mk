@@ -309,6 +309,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/omni/overlay/CarrierConfig
 
+# Vendor
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.vendor.patch.level=OxygenOS_5.1.0
+
 # OOS Camera
 PRODUCT_PACKAGES += \
     OnePlusCamera \
